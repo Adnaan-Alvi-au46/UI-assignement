@@ -1,0 +1,43 @@
+.footer{
+  /* width: 100%;   */
+  /* width: 1024px;   */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 50px;
+  font-size: 12px;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.fLists{
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.fList{
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.fListItem{
+  margin-bottom: 10px;
+  color:white;
+  cursor: pointer;
+}
+.ft-logo{
+  font-weight: 900;
+  font-size: large;
+  color: red;
+  margin-bottom: 10px;
+}
+.ft-para{
+  line-height: 2;
+  text-align: left;
+}
